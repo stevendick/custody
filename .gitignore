@@ -16,3 +16,4 @@ stacktrace.log
 /.link_to_grails_plugins
 .project
 .classpath
+/target-eclipse/

@@ -1,14 +1,12 @@
 package ch.hedgesphere
 
 class User {
+    String username
+    String passwordHash
+    
+    static hasMany = [ roles: Role, permissions: String ]
 
     static constraints = {
-		login blank:false, size:5..255,matches:/[\S]+/, unique:true
-		password blank:false, size:5..255,matches:/[\S]+/
+        username(nullable: false, blank: false, unique: true)
     }
-	
-	String login
-	String password
-	String firstName
-	String lastName
 }

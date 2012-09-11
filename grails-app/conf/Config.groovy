@@ -98,3 +98,7 @@ grails.gorm.default.mapping = {
 	'user-type' type: PersistentDateTime, class: org.joda.time.DateTime
 	'user-type' type: PersistentLocalDate, class: org.joda.time.LocalDate
 }
+
+// always debug resources
+grails.resources.debug = true
+
