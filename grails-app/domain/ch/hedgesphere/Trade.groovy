@@ -8,11 +8,11 @@ class Trade {
 	String security
 	String transactionType
 	String bankAccountType
-	BigDecimal Amount
+	BigDecimal amount
 	BigDecimal shares
 	BigDecimal nav
 	LocalDate date
-	
+
     static constraints = {
     }
 }
