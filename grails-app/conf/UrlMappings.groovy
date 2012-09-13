@@ -1,7 +1,8 @@
 class UrlMappings {
 
 	static mappings = {
-		"/$controller/$action?/$id?"{
+        //"/$controller/$action?/$id?" {
+		"/$controller/$action?/$id?"(parseRequest: true) {
 			constraints {
 				// apply constraints here
 			}
@@ -9,6 +10,5 @@ class UrlMappings {
 
 		"/"(view:"/index")
 		"500"(view:'/error')
-		"/"(controller:"dashboard")
 	}
 }

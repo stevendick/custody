@@ -102,3 +102,5 @@ grails.gorm.default.mapping = {
 // always debug resources
 grails.resources.debug = true
 
+//include the version property in JSON & XML serialization
+grails.converters.domain.include.version=true

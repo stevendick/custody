@@ -1,5 +1,8 @@
 package ch.hedgesphere
 
+import grails.converters.JSON
+import grails.converters.XML
+
 import org.springframework.dao.DataIntegrityViolationException
 
 class TradeController {
@@ -12,7 +15,18 @@ class TradeController {
 
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        [tradeInstanceList: Trade.list(params), tradeInstanceTotal: Trade.count()]
+        withFormat {
+            html {
+                [tradeInstanceList: Trade.list(params), tradeInstanceTotal: Trade.count()]
+            }
+            json {
+                render Trade.list(params) as JSON
+            }
+            xml {
+                render Trade.list(params) as XML
+            }
+        }
+
     }
 
     def create() {
@@ -52,33 +66,65 @@ class TradeController {
         [tradeInstance: tradeInstance]
     }
 
-    def update(Long id, Long version) {
-        def tradeInstance = Trade.get(id)
+    //def update(Long id, Long version) {
+    def update() {
+        println request.getMethod()
+        println request.getContentType()
+        println request.getInputStream().text
+        println "params: ${params}"
+        def tradeInstance = Trade.get(params.id)
         if (!tradeInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'trade.label', default: 'Trade'), id])
-            redirect(action: "list")
+            withFormat {
+                html {
+                    flash.message = message(code: 'default.not.found.message', args: [message(code: 'trade.label', default: 'Trade'), params.id])
+                    redirect(action: "list")
+                }
+                json {
+                    response.sendError(404)
+                }
+            }
             return
         }
 
-        if (version != null) {
-            if (tradeInstance.version > version) {
+        if (params.version != null) {
+            if (tradeInstance.version > params.version) {
                 tradeInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
                           [message(code: 'trade.label', default: 'Trade')] as Object[],
                           "Another user has updated this Trade while you were editing")
-                render(view: "edit", model: [tradeInstance: tradeInstance])
+                withFormat {
+                    html {
+                        render(view: "edit", model: [tradeInstance: tradeInstance])
+                    }
+                    json { response.sendError(409) }
+                }
                 return
             }
         }
 
         tradeInstance.properties = params
-
+        println tradeInstance
         if (!tradeInstance.save(flush: true)) {
-            render(view: "edit", model: [tradeInstance: tradeInstance])
+            println tradeInstance.errors
+            withFormat {
+                html { render(view: "edit", model: [tradeInstance: tradeInstance]) }
+
+                json { response.status = 403
+                       render tradeInstance.errors as JSON
+                }
+            }
             return
         }
 
-        flash.message = message(code: 'default.updated.message', args: [message(code: 'trade.label', default: 'Trade'), tradeInstance.id])
-        redirect(action: "show", id: tradeInstance.id)
+        withFormat {
+            html {
+                flash.message = message(code: 'default.updated.message', args: [message(code: 'trade.label', default: 'Trade'), tradeInstance.id])
+                redirect(action: "show", id: tradeInstance.id)
+            }
+            json {
+                response.status = 204
+                render tradeInstance as JSON
+            }
+        }
     }
 
     def delete(Long id) {
