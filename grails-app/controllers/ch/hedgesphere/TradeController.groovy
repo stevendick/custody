@@ -46,13 +46,29 @@ class TradeController {
 
     def show(Long id) {
         def tradeInstance = Trade.get(id)
-        if (!tradeInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'trade.label', default: 'Trade'), id])
-            redirect(action: "list")
-            return
-        }
+		if (!tradeInstance) {
+			
+		}
+		withFormat {
+			html {
+					flash.message = message(code: 'default.not.found.message', args: [message(code: 'trade.label', default: 'Trade'), id])
+					redirect(action: "list")
+					return
+				}
+			json {
+				render Trade.get(params.id) as JSON
+			}
+			
+			withFormat {
+				html {
+					[tradeInstance: tradeInstance]
+				}
+				json {
+					response.sendError(404)
+				}
+			}
+		}
 
-        [tradeInstance: tradeInstance]
     }
 
     def edit(Long id) {
@@ -100,8 +116,14 @@ class TradeController {
                 return
             }
         }
-
+		
+		// can't work out why I'm getting a trade object as I think I've removed the class property from the json serialization
+		if(params.trade) {
+			tradeInstance.properties = params.trade
+		} else {
         tradeInstance.properties = params
+		}
+		
         println tradeInstance
         if (!tradeInstance.save(flush: true)) {
             println tradeInstance.errors

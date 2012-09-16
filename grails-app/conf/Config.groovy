@@ -16,7 +16,7 @@ import org.jadira.usertype.dateandtime.joda.PersistentLocalDate
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
-grails.mime.use.accept.header = false
+grails.mime.use.accept.header = true
 grails.mime.types = [
     all:           '*/*',
     atom:          'application/atom+xml',
@@ -104,3 +104,6 @@ grails.resources.debug = true
 
 //include the version property in JSON & XML serialization
 grails.converters.domain.include.version=true
+
+// make sure we don't use local-aware date formatting
+jodatime.format.html5 = true

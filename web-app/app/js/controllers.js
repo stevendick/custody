@@ -2,7 +2,6 @@
 
 /* Controllers */
 
-
 function MyCtrl1() {}
 MyCtrl1.$inject = [];
 
@@ -10,3 +9,21 @@ MyCtrl1.$inject = [];
 function MyCtrl2() {
 }
 MyCtrl2.$inject = [];
+
+function TradeTableCtrl($scope, Trade) {
+	$scope.trades = Trade.query();
+}
+
+function TradeEditCtrl($scope, $routeParams, Trade) {
+	$scope.trade = Trade.get({id: $routeParams.id});
+}
+
+function TradeEditFormCtrl($scope, $location, $routeParams) {
+	$scope.submit = function() {
+		$scope.trade.$save(function() { 
+			$location.path('trades'); 
+		});
+	};
+}
+
+

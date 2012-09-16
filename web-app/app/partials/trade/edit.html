@@ -1,0 +1,59 @@
+<div class="row">
+	<div class="offset1 span10">
+		<form class="form-horizontal" ng-submit="submit()" ng-controller="TradeEditFormCtrl">
+			<div class="control-group">
+				<label class="control-label" for="accountInput">Account</label>
+				<div class="controls">
+					<input type="text" id="accountInput" name="account" ng-model="trade.account" /><br />
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">Amount</label>
+				<div class="controls">
+					<input type="number" id="amountInput" name="amount" ng-model="trade.amount" /><br />
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">Bank Account Type</label>
+				<div class="controls">
+					<input type="text" id="bankAccountTypeInput"name="bankAccountType"	ng-model="trade.bankAccountType" /><br /> 
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">Date</label>
+				<div class="controls">
+					<input type="date" id="dateInput" name="date" ng-model="trade.date" /><br />
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">NAV</label>
+				<div class="controls">
+					<input type="number" id="navInput" name="nav" ng-model="trade.nav" /><br /> 
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">security</label>
+				<div class="controls">	
+					<input type="text" id="securityInput" name="security" ng-model="trade.security" /><br />
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">Shares</label>
+				<div class="controls">
+					<input type="number" id="sharesInput" name="shares" ng-model="trade.shares" /><br />
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="">Transaction Type</label>
+				<div class="controls">
+					<input type="text" id="transactionTypeInput" name="transactionType" ng-model="trade.transactionType" /><br />
+				</div>
+			</div>
+			<div class="control-group"> 
+				<div class="controls">
+					<input class="btn" type="submit" id="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

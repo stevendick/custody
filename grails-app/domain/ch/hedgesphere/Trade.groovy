@@ -15,4 +15,10 @@ class Trade {
 
     static constraints = {
     }
+	
+	static {
+		grails.converters.JSON.registerObjectMarshaller(Trade) {
+			return it.properties.findAll {k,v -> k != 'class'}
+		}
+	}
 }

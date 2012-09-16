@@ -1,3 +1,36 @@
-<div class="hero-unit">
-<h1>Trades</h1>
+<div class="row">
+	<div class="offset1 span10">
+		<div class="hero-unit">
+			<h1>Trades</h1>
+		</div>
+		<div class="table table-bordered table-condensed table-hover"
+			ng-controller="TradeTableCtrl">
+			<table>
+				<thead>
+					<tr>
+						<th>Account</th>
+						<th>Amount</th>
+						<th>Bank Account Type</th>
+						<th>Date</th>
+						<th>NAV</th>
+						<th>security</th>
+						<th>Shares</th>
+						<th>Transaction Type</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="trade in trades">
+						<td><a href="#trades/edit/{{trade.id}}">{{trade.account}}</a></td>
+						<td>{{trade.amount}}</td>
+						<td>{{trade.bankAccountType}}</td>
+						<td>{{trade.date}}</td>
+						<td>{{trade.nav}}</td>
+						<td>{{trade.security}}</td>
+						<td>{{trade.shares}}</td>
+						<td>{{trade.transactionType}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 </div>
