@@ -10,7 +10,12 @@ function MyCtrl2() {
 }
 MyCtrl2.$inject = [];
 
+function MenuCtrl() {
+	
+}
+
 function TradeTableCtrl($scope, Trade) {
+	$scope.isTrades=true;
 	$scope.trades = Trade.query();
 }
 

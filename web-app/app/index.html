@@ -21,7 +21,7 @@
   
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top" ng-controller="MenuCtrl">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -32,9 +32,9 @@
           <a class="brand" href="#">HSFoF TOM</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#landing">Home</a></li>
-              <li><a href="#trades">Trades</a></li>
-              <li><a href="#reports">Reports</a></li>
+              <li ng-class="{active: isLanding}"><a href="#landing">Home</a></li>
+              <li ng-class="{active: isTrades}"><a href="#trades">Trades</a></li>
+              <li ng-class="{active: isReports}"><a href="#reports">Reports</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
