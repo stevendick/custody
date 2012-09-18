@@ -31,10 +31,10 @@ environments {
         dataSource {
             driverClassName = "net.sourceforge.jtds.jdbc.Driver"
             dialect = org.hibernate.dialect.SQLServer2008Dialect
-            username = "sa"
-            password = "sa2008"
+            username = "infonic_aws_sa"
+            password = "dqP66MHXuSSgrAFwdFPF"
             dbCreate = "update"
-            url = "jdbc:jtds:sqlserver://${jdbc.pad.hostname}:${jdbc.pad.port}/${jdbc.pad.dbname}"
+            url = "jdbc:jtds:sqlserver://custody.czvf4joffama.us-east-1.rds.amazonaws.com:1433/custody"
             pooled = true
             properties {
                maxActive = -1
