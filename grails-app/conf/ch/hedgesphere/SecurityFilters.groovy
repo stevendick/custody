@@ -17,6 +17,9 @@ class SecurityFilters {
                 // Access control by convention.
                 accessControl()
             }
+            after = {
+                response.setHeader('Strict-Transport-Security', 'max-age=8640000; includeSubDomains')
+            }
         }
     }
 }
