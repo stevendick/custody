@@ -11,9 +11,6 @@ class SecurityFilters {
                 // Ignore direct views (e.g. the default main index page).
                 if (!controllerName) return true
 
-                // FIXME hack to turn off security for the moment
-                return true
-
                 // Access control by convention.
                 accessControl()
             }
