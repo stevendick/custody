@@ -8,14 +8,14 @@ class SecurityFilters {
     def filters = {
         all(uri: "/**") {
             before = {
-                // Ignore direct views (e.g. the default main index page).
-                if (!controllerName) return true
-
-                // Access control by convention.
+                // Access control by convention - all resources are protected, even static ones
                 accessControl()
             }
             after = {
-                response.setHeader('Strict-Transport-Security', 'max-age=8640000; includeSubDomains')
+                // enforce secure transport when we are using HTTPS
+                if(request.getScheme().equals("https")) {
+                    response.setHeader('Strict-Transport-Security', 'max-age=8640000; includeSubDomains')
+                }
             }
         }
     }
