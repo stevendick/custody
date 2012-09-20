@@ -31,4 +31,19 @@ function TradeEditFormCtrl($scope, $location, $routeParams) {
 	};
 }
 
+function LoginController($scope, $location) {
+	$scope.user = {login: null, password: null};
+}
+
+function LoginFormController($scope, $http, authService) {
+	$scope.submit = function() {
+		$http.post('../auth/signIn', $scope.user)
+		.success(function(data, status, headers, config) {
+			authService.loginConfirmed();
+		})
+		.error(function(data, status, headers, config) {
+			$scope.message='doh!';
+		});
+	};
+}
 
