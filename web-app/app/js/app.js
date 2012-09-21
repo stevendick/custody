@@ -4,7 +4,7 @@
 angular.module(
 		'Custody',
 		[ 'Custody.filters', 'Custody.services', 'Custody.directives',
-				'http-auth-interceptor' ]).config(
+				'http-auth-interceptor', 'ui' ]).config(
 		[ '$routeProvider', function($routeProvider) {
 			$routeProvider.when('/landing', {
 				templateUrl : 'partials/landing.html',

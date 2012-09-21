@@ -32,7 +32,7 @@ function TradeEditFormCtrl($scope, $location, $routeParams) {
 }
 
 function LoginController($scope, $location) {
-	$scope.user = {login: null, password: null};
+	$scope.user = {login: null, password: null, client: null};
 }
 
 function LoginFormController($scope, $http, authService) {

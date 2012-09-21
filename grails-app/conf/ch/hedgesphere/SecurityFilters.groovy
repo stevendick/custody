@@ -13,6 +13,7 @@ class SecurityFilters {
     def filters = {
         all(uri: "/**") {
             before = {
+                println 'sec filters'
                 // Access control by convention - all resources are protected, even static ones
                 accessControl()
 

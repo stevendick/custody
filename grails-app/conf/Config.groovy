@@ -107,3 +107,9 @@ grails.converters.domain.include.version=true
 
 // make sure we don't use local-aware date formatting
 jodatime.format.html5 = true
+
+// Added by the MultiTenant plugin
+// TODO: Verify that this is correct
+multiTenant {
+    tenantClass = ch.hedgesphere.Customer
+}
