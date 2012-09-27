@@ -1,6 +1,7 @@
 package ch.hedgesphere
 
 import grails.test.mixin.*
+
 import org.junit.*
 
 /**

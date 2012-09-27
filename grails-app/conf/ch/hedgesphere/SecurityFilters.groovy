@@ -32,7 +32,7 @@ class SecurityFilters {
         println filter.request.getRequestURI()
         if(isJsonRequest(filter.request)) {
             filter.response.status = 401
-            return
+            return false
         }
         true
     }

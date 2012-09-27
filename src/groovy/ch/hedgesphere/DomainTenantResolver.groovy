@@ -15,9 +15,10 @@ class DomainTenantResolver implements TenantResolver {
 
     Integer resolve(HttpServletRequest request) throws TenantResolveException {
 
-        Subject subject = SecurityUtils.getSubject()
+        Subject subject = SecurityUtils.subject
 
         if(subject.isAuthenticated() == false) {
+            log.warn('attempt to resolve the tenant for an unauthenticated subject: {}', subject.principal)
             return null
         }
 
@@ -27,7 +28,8 @@ class DomainTenantResolver implements TenantResolver {
             throw new IllegalStateException("No client for user ${subject.principal}")
         }
 
-
+        // client '3' means the global client who sees all
+        return client == '3' ? null : client
 
     }
 

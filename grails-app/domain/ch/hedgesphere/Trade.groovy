@@ -1,7 +1,10 @@
 package ch.hedgesphere
 
+import grails.plugin.multitenant.core.annotation.MultiTenant
+
 import org.joda.time.LocalDate
 
+@MultiTenant
 class Trade {
 
 	String account
@@ -15,7 +18,7 @@ class Trade {
 
     static constraints = {
     }
-	
+
 	static {
 		grails.converters.JSON.registerObjectMarshaller(Trade) {
 			return it.properties.findAll {k,v -> k != 'class'}

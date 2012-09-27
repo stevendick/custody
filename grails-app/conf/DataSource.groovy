@@ -23,7 +23,6 @@ environments {
             dialect = org.hibernate.dialect.SQLServer2008Dialect
             username = "sa"
             password = "sa2008"
-            dbCreate = "update"
             url = "jdbc:jtds:sqlserver://localhost:1433/custody"
         }
     }
@@ -33,7 +32,6 @@ environments {
             dialect = org.hibernate.dialect.SQLServer2008Dialect
             username = "infonic_aws_sa"
             password = "dqP66MHXuSSgrAFwdFPF"
-            dbCreate = "update"
             url = "jdbc:jtds:sqlserver://custody.czvf4joffama.us-east-1.rds.amazonaws.com:1433/custody"
             pooled = true
             properties {
