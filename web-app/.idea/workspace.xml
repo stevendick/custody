@@ -2,30 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74152002-ef07-43b3-9f6e-fa8d73bb974a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/web-app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendor/select2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendor/select2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendor/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/Customer.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../src/groovy/ch/hedgesphere/CachingTenantRepository.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../src/groovy/ch/hedgesphere/DomainTenantResolver.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/angular-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/angular/angular-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendor/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.groovy/suggestions.xdsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../grails-app/services/ch/hedgesphere/SecurityService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/AuthControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/SecurityServiceSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sdick.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitattributes" afterPath="$PROJECT_DIR$/../.gitattributes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../application.properties" afterPath="$PROJECT_DIR$/../application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/ApplicationResources.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/ApplicationResources.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/UrlMappings.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/ch/hedgesphere/SecurityFilters.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/ch/hedgesphere/SecurityFilters.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/spring/resources.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/spring/resources.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/controllers/ch/hedgesphere/AuthController.groovy" afterPath="$PROJECT_DIR$/../grails-app/controllers/ch/hedgesphere/AuthController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/controllers/ch/hedgesphere/DashboardController.groovy" afterPath="$PROJECT_DIR$/../grails-app/controllers/ch/hedgesphere/DashboardController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/controllers/ch/hedgesphere/TradeController.groovy" afterPath="$PROJECT_DIR$/../grails-app/controllers/ch/hedgesphere/TradeController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/Role.groovy" afterPath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/Role.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/Trade.groovy" afterPath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/Trade.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/User.groovy" afterPath="$PROJECT_DIR$/../grails-app/domain/ch/hedgesphere/User.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_cs_CZ.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_cs_CZ.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_da.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_da.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_de.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_de.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_es.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_es.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_fr.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_fr.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_it.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_it.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_ja.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_ja.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_nl.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_nl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_pl.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_pl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_pt_BR.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_pt_BR.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_pt_PT.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_pt_PT.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_ru.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_sv.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_sv.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_th.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_th.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_zh_CN.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_zh_CN.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/shiro.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/shiro.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/realms/ch/hedgesphere/DbRealm.groovy" afterPath="$PROJECT_DIR$/../grails-app/realms/ch/hedgesphere/DbRealm.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/auth/login.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/auth/login.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/dashboard/dashboard.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/dashboard/dashboard.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/error.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/error.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/_form.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/create.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/edit.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/list.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/list.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/show.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/show.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/templates/scaffolding/renderEditor.template" afterPath="$PROJECT_DIR$/../src/templates/scaffolding/renderEditor.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/DashboardControllerTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/DashboardControllerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeControllerTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeControllerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/UserTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/UserTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web-app.iml" afterPath="$PROJECT_DIR$/.idea/web-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/groovy/ch/hedgesphere/DomainTenantResolver.groovy" afterPath="$PROJECT_DIR$/../src/groovy/ch/hedgesphere/DomainTenantResolver.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
@@ -73,10 +114,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="93" selection-start="838" selection-end="838" vertical-scroll-proportion="-12.423077">
+            <state line="19" column="54" selection-start="799" selection-end="799" vertical-scroll-proportion="0.32626262">
               <folding />
             </state>
           </provider>
@@ -85,16 +126,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-27.461538">
+            <state line="29" column="42" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-10.307693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="60" selection-start="632" selection-end="632" vertical-scroll-proportion="0.5832493">
+            <state line="27" column="40" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,8 +166,8 @@
         <option value="$PROJECT_DIR$/app/lib/angular/angular-ui.min.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/partials/login.html" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/app/partials/login.html" />
       </list>
     </option>
   </component>
@@ -135,6 +176,22 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CSS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -338,7 +395,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.tabs" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -369,7 +426,7 @@
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -397,6 +454,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="74152002-ef07-43b3-9f6e-fa8d73bb974a" name="Default" comment="" />
       <created>1348232659520</created>
       <updated>1348232659520</updated>
     </task>
@@ -404,25 +462,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24895833" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -478,9 +536,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/vendor/select2.min.js">
+    <entry file="file://$PROJECT_DIR$/app/partials/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="93" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -492,37 +564,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/vendor/select2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="299" selection-end="299" vertical-scroll-proportion="0.2607362">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="93" selection-start="838" selection-end="838" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/angular/angular-ui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.10429448">
+        <state line="19" column="93" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-27.461538">
+        <state line="51" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="60" selection-start="632" selection-end="632" vertical-scroll-proportion="0.5832493">
+        <state line="34" column="60" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vendor/select2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/vendor/select2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="299" selection-end="299" vertical-scroll-proportion="0.2607362" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/angular/angular-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.10429448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="42" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-10.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="54" selection-start="799" selection-end="799" vertical-scroll-proportion="0.32626262">
           <folding />
         </state>
       </provider>

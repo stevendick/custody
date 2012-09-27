@@ -1,13 +1,15 @@
 package ch.hedgesphere
 
-import org.apache.shiro.SecurityUtils
+import org.apache.shiro.subject.Subject
 import org.apache.shiro.authc.AuthenticationException
 import org.apache.shiro.authc.UsernamePasswordToken
 import org.apache.shiro.grails.ConfigUtils
-import org.apache.shiro.web.util.WebUtils
+import org.apache.shiro.mgt.SecurityManager
+import org.apache.shiro.subject.Subject
 
 class AuthController {
-    def shiroSecurityManager
+    SecurityManager shiroSecurityManager
+    def securityService
 
     def index = { redirect(action: "login", params: params) }
 
@@ -28,7 +30,7 @@ class AuthController {
         def targetUri = params.targetUri ?: "/"
 
         // Handle requests saved by Shiro filters.
-        def savedRequest = WebUtils.getSavedRequest(request)
+        def savedRequest = securityService.getSavedRequest(request)
         if (savedRequest) {
             targetUri = savedRequest.requestURI - request.contextPath
             if (savedRequest.queryString) targetUri = targetUri + '?' + savedRequest.queryString
@@ -38,8 +40,11 @@ class AuthController {
             // Perform the actual login. An AuthenticationException
             // will be thrown if the username is unrecognised or the
             // password is incorrect.
-            SecurityUtils.subject.login(authToken)
+            Subject subject = securityService.getSubject()
+            securityService.login(subject, authToken)
 
+            // update the session with the user's client ID
+            subject.getSession().setAttribute('client', params.client)
 
             withFormat {
                 html {
@@ -84,8 +89,8 @@ class AuthController {
 
     def signOut = {
         // Log the user out of the application.
-        def principal = SecurityUtils.subject?.principal
-        SecurityUtils.subject?.logout()
+        def principal = securityService.subject?.principal
+        securityService.subject?.logout()
         // For now, redirect back to the home page.
         if (ConfigUtils.getCasEnable() && ConfigUtils.isFromCas(principal)) {
             redirect(uri:ConfigUtils.getLogoutUrl())
