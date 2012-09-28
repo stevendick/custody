@@ -15,6 +15,7 @@ class Trade {
 	BigDecimal shares
 	BigDecimal nav
 	LocalDate date
+    LocalDate settleDate
 
     static constraints = {
     }

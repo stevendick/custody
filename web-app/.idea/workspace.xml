@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74152002-ef07-43b3-9f6e-fa8d73bb974a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.groovy/suggestions.xdsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../grails-app/services/ch/hedgesphere/SecurityService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/AuthControllerSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/SecurityServiceSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sdick.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitattributes" afterPath="$PROJECT_DIR$/../.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.groovy/suggestions.xdsl" afterPath="$PROJECT_DIR$/../.groovy/suggestions.xdsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../application.properties" afterPath="$PROJECT_DIR$/../application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/ApplicationResources.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/ApplicationResources.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/../grails-app/conf/BootStrap.groovy" />
@@ -41,6 +38,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/messages_zh_CN.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/messages_zh_CN.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/i18n/shiro.properties" afterPath="$PROJECT_DIR$/../grails-app/i18n/shiro.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/realms/ch/hedgesphere/DbRealm.groovy" afterPath="$PROJECT_DIR$/../grails-app/realms/ch/hedgesphere/DbRealm.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/services/ch/hedgesphere/SecurityService.groovy" afterPath="$PROJECT_DIR$/../grails-app/services/ch/hedgesphere/SecurityService.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/auth/login.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/auth/login.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/dashboard/dashboard.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/dashboard/dashboard.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/error.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/error.gsp" />
@@ -52,13 +50,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/list.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/list.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-app/views/trade/show.gsp" afterPath="$PROJECT_DIR$/../grails-app/views/trade/show.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/templates/scaffolding/renderEditor.template" afterPath="$PROJECT_DIR$/../src/templates/scaffolding/renderEditor.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/AuthControllerSpec.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/AuthControllerSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/DashboardControllerTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/DashboardControllerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/SecurityServiceSpec.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/SecurityServiceSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeControllerTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeControllerTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/TradeTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/UserTests.groovy" afterPath="$PROJECT_DIR$/../test/unit/ch/hedgesphere/UserTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web-app.iml" afterPath="$PROJECT_DIR$/.idea/web-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/groovy/ch/hedgesphere/DomainTenantResolver.groovy" afterPath="$PROJECT_DIR$/../src/groovy/ch/hedgesphere/DomainTenantResolver.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sdick.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sdick.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
@@ -66,6 +64,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web-app.iml" afterPath="$PROJECT_DIR$/.idea/web-app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />

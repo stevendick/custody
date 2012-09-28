@@ -105,11 +105,14 @@ grails.resources.debug = true
 //include the version property in JSON & XML serialization
 grails.converters.domain.include.version=true
 
-// make sure we don't use local-aware date formatting
+// make sure we don't use locale-aware date formatting
 jodatime.format.html5 = true
 
 // Added by the MultiTenant plugin
-// TODO: Verify that this is correct
 multiTenant {
     tenantClass = ch.hedgesphere.Customer
 }
+
+// apply database migrations at startup
+grails.plugin.databasemigration.updateOnStart = true
+grails.plugin.databasemigration.updateOnStartFileNames = ['changelog.groovy']
